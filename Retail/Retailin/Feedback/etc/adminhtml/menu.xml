@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Retailin_Feedback::feedback" title="Feedback" module="Retailin_Feedback" sortOrder="51" action="retailin_feedback/post" resource="Retailin_Feedback::Post"/>
+    </menu>
+</config>
